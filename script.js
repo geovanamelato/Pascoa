@@ -26,7 +26,7 @@ function showSurprise() {
 }
 
 function createHearts() {
-    const heartStyles = ['❤️', '🧡', '💛', '💚', '💙', '💜', '🤎', '🖤', '🤍'];
+    const heartStyles = ['❤️', '🖤', '🤍','❤️', '🖤', '🤍','❤️', '🖤', '🤍','❤️', '🖤', '🤍','❤️', '🖤', '🤍'];
     const colors = ['#ff0000', '#ff6b6b', '#ff8e8e', '#ffb3b3', '#ffd8d8'];
     
     for (let i = 0; i < 50; i++) {
