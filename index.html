@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páscoa Rubro-Negra</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <div class="heart-animation">❤️</div>
+        <img src="Logo_Flamengo.png" alt="Flamengo" class="logo">
+        <h1>Feliz Páscoa, Bruno!</h1>
+        <p class="subtitle">Uma mensagem especial para o meu rubro-negro favorito</p>
+    </div>
+
+    <div class="container">
+        <div class="message-box">
+            <div class="flamengo-stripe"></div>
+            <div class="content">
+                <h2>Para o meu Bruno</h2>
+                <p>Nesta Páscoa, quero te dizer que não pude comprar um ovo de pascoa do Flamengo e que mesmo não compartilhando sua paixão pelo Flamengo, admiro muito o seu amor pelo time. Seu entusiasmo rubro-negro é uma das muitas coisas que te tornam especial.</p>
+                <p>Te amo mais que o Bruno Henrique ama fazer gol, mais que o Arrascaeta ama dar assistência e mais que o Flamengo ama ser campeão!</p>
+                <div class="signature">Com amor, <span>Geovana</span></div>
+            </div>
+        </div>
+
+        <div class="easter-section">
+            <h3>Ovos de Páscoa do flamengo para você</h3>
+            <div class="eggs-container">
+                <div class="egg" onclick="revealMessage(1)">
+                    <div class="egg-top"></div>
+                    <div class="egg-bottom"></div>
+                </div>
+                <div class="egg" onclick="revealMessage(2)">
+                    <div class="egg-top"></div>
+                    <div class="egg-bottom"></div>
+                </div>
+                <div class="egg" onclick="revealMessage(3)">
+                    <div class="egg-top"></div>
+                    <div class="egg-bottom"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="message1" class="hidden-message">
+            <h3>Nosso amor é campeão!</h3>
+            <p>Assim como o Mengão, nosso amor não tem vice. Cada dia ao seu lado é uma vitória! (só você para me fazer falar isso mesmo mds ) </p>
+        </div>
+
+        <div id="message2" class="hidden-message">
+            <h3>Sua paixão pelo Flamengo</h3>
+            <p>Admiro como você torce com tanto entusiasmo. Mesmo não sendo minha praia, amo ver sua felicidade quando o time ganha!</p>
+        </div>
+
+        <div id="message3" class="hidden-message">
+            <h3>Flamengo e eu</h3>
+            <p>Sei que são duas coisas que te deixam feliz. Hoje o presente é só seu, mas meu coração é todo seu também!</p>
+        </div>
+
+        <button class="surprise-btn" onclick="showSurprise()">Clique para seu presente</button>
+
+        <div id="surprise-box" class="surprise-box hidden">
+            <h3>Seu presente especial</h3>
+            <ul>
+                <li>🏆 Prometo assistir aos jogos com você (mesmo fazendo cara feia)</li>
+                <li>❤️ Um abraço apertado pra cada gol do Flamengo (Medo porque fui pesquisar quantos são, spoiler 13.001, chocada)</li>
+                <li>😘 Beijos que valem mais que título da Libertadores (É bom você concordar com isso em hmm)</li>
+                <li>🥇 Você é meu maior campeonato (Todo dia você me conquista um pouco mais)</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Feito com ❤️ por Geovana sua princesa - Páscoa 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
